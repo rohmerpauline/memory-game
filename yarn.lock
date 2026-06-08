@@ -1739,6 +1739,11 @@ postcss@^8.5.15:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
+preact-iso@^2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/preact-iso/-/preact-iso-2.12.0.tgz#2048de1b37a19369b94b2ac39d4b6cfa694ce56c"
+  integrity sha512-k0Y44UONBJ1zBXXCBhJRAa5O4ww8a5FHdLD6l21IxcnsTmDBto4n7KPQAH6xqegsKDMX4SuJ02qItiUlciIlZQ==
+
 preact@^10.29.1:
   version "10.29.2"
   resolved "https://registry.yarnpkg.com/preact/-/preact-10.29.2.tgz#3e6069c471718b8d124d1cd67565114532e88d70"
