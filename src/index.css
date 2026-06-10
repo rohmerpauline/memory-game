@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import 'tailwindcss';
 
 @theme inline {
@@ -14,8 +15,6 @@
   --color-orange-300: #ffb84a;
   --color-orange-400: #fda214;
 
-  --font-sans: 'Atkinson Hyperlegible', sans-serif;
-
   --spacing-0: 0px;
   --spacing-100: 0.5rem;
   --spacing-200: 1rem;
@@ -26,69 +25,67 @@
   --spacing-1000: 5rem;
 }
 
-@layer components {
-  [class^='text-preset-'] {
-    line-height: 1.25;
-    font-weight: 700;
-    color: red;
-  }
+@utility text-preset {
+  line-height: 1.25;
+  font-weight: 700;
+}
 
-  .text-preset-1 {
-    font-size: 3.5rem;
-  }
+@utility text-preset-1 {
+  font-size: 3.5rem;
+}
 
-  .text-preset-2 {
-    font-size: 3rem;
-  }
+@utility text-preset-2 {
+  font-size: 3rem;
+}
 
-  .text-preset-3 {
-    font-size: 2.75rem;
-  }
+@utility text-preset-3 {
+  font-size: 2.75rem;
+}
 
-  .text-preset-4 {
-    font-size: 2.5rem;
-  }
+@utility text-preset-4 {
+  font-size: 2.5rem;
+}
 
-  .text-preset-5 {
-    font-size: 2rem;
-  }
+@utility text-preset-5 {
+  font-size: 2rem;
+}
 
-  .text-preset-6 {
-    font-size: 1.625rem;
-  }
+@utility text-preset-6 {
+  font-size: 1.625rem;
+}
 
-  .text-preset-7 {
-    font-size: 1.5rem;
-  }
+@utility text-preset-7 {
+  font-size: 1.5rem;
+}
 
-  .text-preset-8 {
-    font-size: 1.25rem;
-  }
+@utility text-preset-8 {
+  font-size: 1.25rem;
+}
 
-  .text-preset-9 {
-    font-size: 1.125rem;
-  }
+@utility text-preset-9 {
+  font-size: 1.125rem;
+}
 
-  .text-preset-10 {
-    font-size: 1rem;
-  }
+@utility text-preset-10 {
+  font-size: 1rem;
+}
 
-  .text-preset-11 {
-    font-size: 0.9375rem;
-  }
+@utility text-preset-11 {
+  font-size: 0.9375rem;
+}
 
-  .text-preset-12 {
-    font-size: 0.875rem;
-  }
+@utility text-preset-12 {
+  font-size: 0.875rem;
+}
 
-  .text-preset-13 {
-    font-size: 0.8125rem;
-    letter-spacing: 0.3125rem;
-  }
+@utility text-preset-13 {
+  font-size: 0.8125rem;
+  letter-spacing: 0.3125rem;
 }
 
 @layer base {
   body {
     font-family: var(--font-sans);
+    background-color: var(--color-blue-800);
   }
 }
